@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rianer.labexer1.ActivitySecond">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvRA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:text="Your RA is"
+            android:textSize="30dp"
+            android:paddingLeft="25dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvFG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:text="Your Final Grade is"
+            android:textSize="30dp"
+            android:paddingLeft="50dp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/tvGreeting"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="goBackToMain" />
+
+</TableLayout>
